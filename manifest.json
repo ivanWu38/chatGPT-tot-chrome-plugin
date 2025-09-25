@@ -1,0 +1,20 @@
+{
+  "manifest_version": 3,
+  "name": "ChatGPT Copy Link",
+  "description": "一鍵複製 ChatGPT 對話標題與 URL，格式為 [標題](URL)",
+  "version": "1.0",
+  "permissions": [
+    "activeTab",
+    "scripting",
+    "clipboardWrite",
+    "notifications"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_title": "複製 ChatGPT 對話連結",
+    "default_icon": "icon.png"
+  }
+}
+
